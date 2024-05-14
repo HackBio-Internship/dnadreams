@@ -1,0 +1,49 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>🩸 DNA and Dreams</title>
+        <link>http://example.org/</link>
+        <description>🩸 DNA and Dreams</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 Apr 2024 16:40:07 &#43;0200</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Five things you master in bioinformatics through experience</title>
+    <link>http://example.org/posts/fivethings/</link>
+    <pubDate>Mon, 29 Apr 2024 16:40:07 &#43;0200</pubDate><author>
+        <name>Wale Ogunleye</name>
+    </author><guid>http://example.org/posts/fivethings/</guid>
+    <description><![CDATA[🍎 Simple but powerful secrets that make life easier while coding.
+Bioinformatics is a game of practice. The more you practice, the better you become at it. The thing with practicing is that you encounter more errors, problems and challenges, but these errors only reinforce your skillsets. You get better at interpreting them and solving them each time they appear, even if its in a different form. The interesting thing about errors is that you will probably still make them even though you are forewarned about it.]]></description>
+</item><item>
+    <title>Everything BASh in 10 minutes</title>
+    <link>http://example.org/posts/everythingbash/</link>
+    <pubDate>Mon, 29 Apr 2024 16:36:29 &#43;0200</pubDate><author>
+        <name>HackBio</name>
+    </author><guid>http://example.org/posts/everythingbash/</guid>
+    <description><![CDATA[Everything BASh in 10 minutes 🧠 This is a straight, hands-on, instruction based tutorial
+Now that you know how to access the terminal; it is time to learn how to navigate the terminal.
+Why: For the rest of your career in bioinformatics and data science, you will handle thousands of datasets, files and folders. The terminal gives you superpower to handle this huge data scale. It also helps you to automate your analysis pipelines as you will see later in this course.]]></description>
+</item><item>
+    <title>What to expect from the HackBio genomics internship</title>
+    <link>http://example.org/posts/gen_interns/</link>
+    <pubDate>Mon, 29 Apr 2024 16:32:34 &#43;0200</pubDate><author>
+        <name>HackBio</name>
+    </author><guid>http://example.org/posts/gen_interns/</guid>
+    <description><![CDATA[The HackBio Genomics internship is here again and it is another opportunity for researchers worldwide to connect for the purpose of learning and career development.
+A little bit of history: The first edition of the internship happened between August and September, 2020 (about 4 years ago). It was a fast paced, accelerated and project based learning experience. With about 700 students (and 69 finalists; &lt; 10%), we hosted the first edition of the internship successfully with lots of gifts and memories.]]></description>
+</item><item>
+    <title>Is Bioinformatics for you</title>
+    <link>http://example.org/posts/bioinf_for_you/</link>
+    <pubDate>Mon, 29 Apr 2024 14:23:00 &#43;0200</pubDate><author>
+        <name>Wale Ogunleye</name>
+    </author><guid>http://example.org/posts/bioinf_for_you/</guid>
+    <description><![CDATA[⚛️ This article is an excerpt from my talk with Heels and Tech
+Bioinformatics is an interesting mesh of biology, computation and statistics. I like to call it the tech of biology, and rightly so, it is living up to the hype. Since the covid-19 pandemic, bioinformatics has being topping the market size and projections charts. It is a discipline with a lot of interest and investment from the government as well as academic and industry stakeholders.]]></description>
+</item><item>
+    <title>The Ideal Stack for Beginners in Bioinformatics</title>
+    <link>http://example.org/posts/bioinf_stack/</link>
+    <pubDate>Mon, 29 Apr 2024 14:23:00 &#43;0200</pubDate><author>
+        <name>Wale Ogunleye</name>
+    </author><guid>http://example.org/posts/bioinf_stack/</guid>
+    <description><![CDATA[Welcome to the dynamic world of bioinformatics! As a beginner, embarking on the journey of mastering bioinformatics can be both exciting and overwhelming. One of the first challenges you&rsquo;ll encounter is figuring out the right combination of tools and skills to build a strong foundation. In this guide, I&rsquo;ll break down the bioinformatics tech landscape into clear categories, making it easier for you to navigate and build the ideal stack that suits your interests and career journey.]]></description>
+</item></channel>
+</rss>

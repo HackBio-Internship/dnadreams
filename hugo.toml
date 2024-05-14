@@ -1,0 +1,128 @@
+baseURL = "http://example.org/"
+
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+
+# language code
+languageCode = "en"
+
+#title
+title = "🩸 DNA and Dreams"
+description = "HackBio's Official Blog"
+keywords = ["Theme", "Hugo"]
+
+
+# Change the default theme to be use when building the site with Hugo
+theme = "DoIt"
+noFavicon = false
+svgFavicon = "🩸"
+
+[params]
+  # DoIt theme version
+  version = "0.2.X"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    name = "Posts"
+
+    url = "/posts/"
+
+    # title will be shown when you hover on this menu link
+
+    title = ""
+
+    weight = 1
+
+  [[menu.main]]
+
+    identifier = "tags"
+
+    pre = ""
+
+    post = ""
+
+    name = "Tags"
+
+    url = "/tags/"
+
+    title = ""
+
+    weight = 2
+
+  [[menu.main]]
+
+    identifier = "categories"
+
+    pre = ""
+
+    post = ""
+
+    name = "Categories"
+
+    url = "/categories/"
+
+    title = ""
+
+    weight = 3
+
+
+  # Social config about the author
+  [params.social]
+    Linkedin = "https://www.linkedin.com/company/hackbio/"
+    Twitter = "https://twitter.com/TheHackbio"
+    Instagram = "https://www.instagram.com/thehackbio/"
+    Email = "contact@thehackbio.com"
+    Youtubechannel = "https://www.youtube.com/channel/UCX6_N8T0B_yMTjYsrzpTWdQ/"
+
+
+
+[params.search]
+
+    enable = true
+    # type of search engine ("algolia", "fuse")
+    type = "algolia"
+    # max index length of the chunked content
+    contentLength = 4000
+    # placeholder of the search bar
+    placeholder = ""
+    # DoIt NEW | 0.2.1 max number of results length
+    maxResultLength = 10
+    # DoIt NEW | 0.2.3 snippet length of the result
+    snippetLength = 30
+    # DoIt NEW | 0.2.1 HTML tag name of the highlight part in results
+    highlightTag = "em"
+    # DoIt NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+    [params.search.fuse]
+      # DoIt NEW | 0.2.12 https://fusejs.io/api/options.html
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false
+
+# Markup related configuration in Hugo
+[markup]
+
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+
+  [markup.highlight]
+
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+
+    noClasses = false
