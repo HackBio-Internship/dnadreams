@@ -5,6 +5,7 @@ draft = false
 author = "HackBio"
 +++
 
+![](images/FrontMeta.png)
 # Everything BASh in 10 minutes
 
 > 🧠 This is a straight, hands-on, instruction based tutorial

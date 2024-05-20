@@ -5,6 +5,7 @@ draft = false
 author = 'Wale Ogunleye'
 +++
 
+![](images/FrontMeta.png)
 > 🍎 Simple but powerful secrets that make life easier while coding.
 
 Bioinformatics is a game of practice. The more you practice, the better you become at it. The thing with practicing is that you encounter more errors, problems and challenges, but these errors only reinforce your skillsets. You get better at interpreting them and solving them each time they appear, even if its in a different form. The interesting thing about errors is that you will probably still make them even though you are forewarned about it.

@@ -6,19 +6,23 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noodp" /><title>Is Bioinformatics for you - 🩸 DNA and Dreams</title><meta name="Description" content=""><meta property="og:url" content="http://localhost:1313/posts/bioinf_for_you/">
+    <meta name="robots" content="noodp" /><title>Bioinformatics 101: Understanding the Basics - 🩸 DNA and Dreams</title><meta name="Description" content=""><meta property="og:url" content="http://localhost:1313/posts/bfx101/">
   <meta property="og:site_name" content="🩸 DNA and Dreams">
-  <meta property="og:title" content="Is Bioinformatics for you">
-  <meta property="og:description" content="⚛️ This article is an excerpt from my talk with Heels and Tech
-Bioinformatics is an interesting mesh of biology, computation and statistics. I like to call it the tech of biology, and rightly so, it is living up to the hype. Since the covid-19 pandemic, bioinformatics has being topping the market size and projections charts. It is a discipline with a lot of interest and investment from the government as well as academic and industry stakeholders.">
+  <meta property="og:title" content="Bioinformatics 101: Understanding the Basics">
+  <meta property="og:description" content="If you’re just getting into bioinformatics, it can be quite overwhelming. A good way to start is by understanding the basics, then go up from there.
+This article gives a detailed explanation of bioinformatics basics, its history, research areas and important concepts and terms you should know.
+What’s bioinformatics?
+Bioinformatics is a rapidly growing field that combines biology, computer science, and information technology (bioinformatics softwares &amp; tools) to analyze and interpret biological data.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-04-29T14:23:00+02:00">
-    <meta property="article:modified_time" content="2024-04-29T14:23:00+02:00">
-<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Is Bioinformatics for you">
-<meta name="twitter:description" content="⚛️ This article is an excerpt from my talk with Heels and Tech
-Bioinformatics is an interesting mesh of biology, computation and statistics. I like to call it the tech of biology, and rightly so, it is living up to the hype. Since the covid-19 pandemic, bioinformatics has being topping the market size and projections charts. It is a discipline with a lot of interest and investment from the government as well as academic and industry stakeholders.">
+    <meta property="article:published_time" content="2024-05-20T15:27:35+02:00">
+    <meta property="article:modified_time" content="2024-05-20T15:27:35+02:00">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Bioinformatics 101: Understanding the Basics">
+<meta name="twitter:description" content="If you&rsquo;re just getting into bioinformatics, it can be quite overwhelming. A good way to start is by understanding the basics, then go up from there.
+This article gives a detailed explanation of bioinformatics basics, its history, research areas and important concepts and terms you should know.
+What&rsquo;s bioinformatics?
+Bioinformatics is a rapidly growing field that combines biology, computer science, and information technology (bioinformatics softwares &amp; tools) to analyze and interpret biological data.">
       <meta name="twitter:site" content="@TheHackbio">
 <meta name="application-name" content="🩸 DNA and Dreams">
 <meta name="apple-mobile-web-app-title" content="🩸 DNA and Dreams">
@@ -27,20 +31,20 @@ Bioinformatics is an interesting mesh of biology, computation and statistics. I 
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-<link rel="canonical" href="http://localhost:1313/posts/bioinf_for_you/" /><link rel="prev" href="http://localhost:1313/posts/bioinf_stack/" /><link rel="next" href="http://localhost:1313/posts/gen_interns/" />
+<link rel="canonical" href="http://localhost:1313/posts/bfx101/" /><link rel="prev" href="http://localhost:1313/posts/testtimonials/" /><link rel="next" href="http://localhost:1313/posts/top5toolsinbfx/" />
 <link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
-        "headline": "Is Bioinformatics for you",
+        "headline": "Bioinformatics 101: Understanding the Basics",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http://localhost:1313/posts/bioinf_for_you/"
-        },"genre": "posts","wordcount":  711 ,
-        "url": "http://localhost:1313/posts/bioinf_for_you/","datePublished": "2024-04-29T14:23:00+02:00","dateModified": "2024-04-29T14:23:00+02:00","publisher": {
+            "@id": "http://localhost:1313/posts/bfx101/"
+        },"genre": "posts","wordcount":  637 ,
+        "url": "http://localhost:1313/posts/bfx101/","datePublished": "2024-05-20T15:27:35+02:00","dateModified": "2024-05-20T15:27:35+02:00","publisher": {
             "@type": "Organization",
-            "name": "Wale Ogunleye"},"author": {
+            "name": "Chidimma Nwaku"},"author": {
                 "@type": "Person",
-                "name": "Wale Ogunleye",
+                "name": "Chidimma Nwaku",
                 "url": "/"
             },"description": ""
     }</script></head>
@@ -155,16 +159,16 @@ Bioinformatics is an interesting mesh of biology, computation and statistics. I 
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div><main class="main">
-            <div class="container"><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title animate__animated animate__flipInX">Is Bioinformatics for you</h1><div class="post-meta">
+            <div class="container"><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title animate__animated animate__flipInX">Bioinformatics 101: Understanding the Basics</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><a href="/" title="Author" rel=" author" class="author">Wale Ogunleye</a>
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><a href="/" title="Author" rel=" author" class="author">Chidimma Nwaku</a>
                 </span></div>
             <div class="post-meta-line"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2024-04-29">2024-04-29</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2024-04-29">2024-04-29</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;711 words&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;4 minutes&nbsp;</div>
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2024-05-20">2024-05-20</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2024-05-20">2024-05-20</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;637 words&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;3 minutes&nbsp;</div>
         </div><div class="content" id="content"><p><figure><img
         
         loading="lazy"
@@ -173,85 +177,49 @@ Bioinformatics is an interesting mesh of biology, computation and statistics. I 
             /images/FrontMeta.png 960w,
             /images/FrontMeta.png 960w"
         title="images/FrontMeta.png" height="540"   width="960" ></figure></p>
+<p>If you&rsquo;re just getting into bioinformatics, it can be quite overwhelming. A good way to start is by understanding the basics, then go up from there.</p>
 <blockquote>
-<p>⚛️ This article is an excerpt from my talk with Heels and Tech</p>
+<p>This article gives a detailed explanation of bioinformatics basics, its history, research areas and important concepts and terms you should know.</p>
 </blockquote>
-<p>Bioinformatics is an interesting mesh of biology, computation and statistics. I like to call it the tech of biology, and rightly so, it is living up to the hype. Since the covid-19 pandemic, bioinformatics has being topping the market size and projections charts. It is a discipline with a lot of interest and investment from the government as well as academic and industry stakeholders. Given the high level of cash injections from multiple parties, you can expect rewarding renumeration packages if you are a skilled professional (Watch out for article on Salary expectations).</p>
-<p>However, not everyone is cut out for interdisciplinary science. Just by judging from the building blocks of bioinformatics (biology + coding + stats), if you want to completely shy away from <code>at least 2</code> of them for the rest of your life, I can already suggest that you, most likely, are not cut out for the technical demands of bioinformatics (Don’t quit the article yet 😎). There are also non-technical roles in bioinformatics.</p>
-<p>Technically,</p>
-<p>Jobs with upstream development descriptions demand more of your coding and biology skills since you are making first contact with the raw data. It is your job to ensure that you make the data ready for downstream analysis and applications through the development of custom pipelines (coding dependent). Understanding the research context (biology) is required here so you don’t ‘over-clean” the data. For example, if you are provided with a small RNA enrichment dataset  (biology), you have to recalibrate the trimming section of your pipeline (coding), else you will trim the real dataset itself. A little bit of stats is kinda required since you will have to read/report the QC graphs, counts and p-values (if applicable).</p>
-<p>While:</p>
-<p>On the flipside, jobs with downstream development descriptions demand all three building blocks of bioinformatics. Here, you are literally going in circles between the research question (biology), solving the data (coding) and data interpretation (biology+stats). Your stats and coding proficiency will be demanded at every step of the way as you may (if not will) have to write custom solutions that are extremely specific to your data type.</p>
-<blockquote>
-<p>N/B: Kindly read the tech stack in bioinformatics article</p>
-</blockquote>
-<p>Let’s take a look at your personality;</p>
-<p>Personally, I love this part. Partly because I think more than anything else, your kind of person determines your sweet spot in life, your chances of success and whether you will reach the highest heights of that spot.</p>
-<p>In the contest of bioinformatics, it is not so easy to say you are right for bioinformatics just based on your personality. However, you may not fit into the industry but fit perfectly well into the academic landscape because of your personality. I have noted some of the top personality traits that I have seen over time.</p>
-<table>
-<thead>
-<tr>
-<th>Trait</th>
-<th>Academia</th>
-<th>Industry</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Teamwork</td>
-<td>Except you are in a bioinformatics group, you may end up working alone most of the times</td>
-<td>You are most likely working in or leading a team</td>
-</tr>
-<tr>
-<td>Kind of research</td>
-<td>For people who love doing basic/fundamental research</td>
-<td>Big focus on application.</td>
-</tr>
-<tr>
-<td>Research Diversity and flexibility</td>
-<td>You are flexible with changing research methods and plans anytime</td>
-<td>Little to no flexibility in research.</td>
-</tr>
-<tr>
-<td>Impact-lovers</td>
-<td>You may never see the impact of your research. (Except a pandemic hits again 😎)</td>
-<td>You will see people’s life transformed by your codes before you die… literally</td>
-</tr>
-<tr>
-<td>Communication</td>
-<td>Freedom to speak on your scientific jargon</td>
-<td>Storytelling is important. Or you become the evil corp.</td>
-</tr>
-<tr>
-<td>Data or Software person*</td>
-<td>biased towards data</td>
-<td>biased towards software</td>
-</tr>
-<tr>
-<td>Hards facts or hype</td>
-<td>Hard facts with enough statistical significance</td>
-<td>hype is the key to sales 😎</td>
-</tr>
-<tr>
-<td>Microbe, DNA or Drugs</td>
-<td>Everything</td>
-<td>Whatever sells.</td>
-</tr>
-</tbody>
-</table>
-<p><em>I am referring to your personal bias here. Both software and data are somehow intertwined in biology.</em></p>
-<p>You can visit <a href="https://thehackbio.com/path-finder" target="_blank" rel="noopener noreferrer">https://thehackbio.com/path-finder</a> ↗ to conduct a fitness test in bioinformatics for yourself.</p>
-<p>In summary,</p>
-<p>Technical bioinformatics can be learned by anyone anywhere but your personality and interests can redefine your career choices, job description and where you will make the most impact and relevance. Look out for the next article on Career Salary breakdown in bioinformatics.</p>
-<p><strong>If you enjoyed the article, remember to subscribe to the newsletter.</strong></p>
-<p>Written by: <a href="https://www.linkedin.com/in/ACoAABHW2ewB7z0YF8sawzQa7InBaBqrAzDXPUE?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABHW2ewB7z0YF8sawzQa7InBaBqrAzDXPUE" target="_blank" rel="noopener noreferrer">Adewale Ogunleye</a></p>
+<p><strong>What&rsquo;s bioinformatics?</strong></p>
+<p>Bioinformatics is a rapidly growing field that combines biology, computer science, and information technology (bioinformatics softwares &amp; tools) to analyze and interpret biological data.</p>
+<p>You should keep in mind that the <em>goal</em> of bioinformatics is to extract <em>meaningful</em> <em>information</em> from the vast amounts of data generated by biological research, such as genetic sequences, protein structures, and metabolic pathways.</p>
+<p><strong>Brief history of Bioinformatics</strong></p>
+<p>The history of bioinformatics can be traced back to the 1960s and 1970s, when scientists first began using computers to store and analyze biological data.</p>
+<p>However, it wasn&rsquo;t until the 1990s, with the advent of new technologies such as DNA sequencing and high-throughput data generation, that bioinformatics truly came into its own as a field.</p>
+<p><strong>Subfields or research areas under bioinformatics</strong></p>
+<p>Bioinformatics encompasses a wide range of subfields or research areas, including:</p>
+<ul>
+<li>Sequence analysis: This involves the study of genetic and protein sequences to understand the structure and function of genes, proteins, and other biomolecules.</li>
+<li>Genomics: This involves the study of the entire genome of an organism, including its DNA sequence, gene organization, and regulation.</li>
+<li>Transcriptomics: the study of an organism’s entire transcript (or RNA) and their role in regulating the genome. Learn about <a href="https://thehackbio.com/courses/4_ngs_data_analysis:_rna-seq" target="_blank" rel="noopener noreferrer">analyzing RNA-Seq datasets here</a></li>
+<li>Proteomics: This involves the study of proteins expressed within a cell/tissue and their functions within an organism.</li>
+<li>Systems biology: This involves the study of the interactions and connections between different biological systems, such as how genes and proteins interact to control cellular processes.</li>
+<li>Drug discovery and development: This involves the use of bioinformatics tools to identify new drug targets, design and optimize drug molecules for specific targets. Learn to <a href="https://thehackbio.com/courses" target="_blank" rel="noopener noreferrer">search for and discover new drugs and drug targets here</a></li>
+<li>Phylogenetics: this area involves the study of the evolutionary relationships between biological entities. Learn about <a href="https://thehackbio.com/courses/11_Computational_Phylogenetics" target="_blank" rel="noopener noreferrer">phylogenetics and its applications here</a>.</li>
+<li>Structural Bioinformatics: the study, analysis and prediction of the 3-dimensional structure of biomolecules.</li>
+</ul>
+<p><strong>Concepts and terms you need to know in bioinformatics</strong></p>
+<p>In order to understand and work in bioinformatics, it is important to have a grasp of the following concepts and terms:</p>
+<ul>
+<li>DNA and RNA: These are the genetic molecules that carry the instructions for the development, function, and reproduction of all living organisms. Learn about <a href="https://thehackbio.com/courses/1_introduction_to_molecular_biology" target="_blank" rel="noopener noreferrer">DNA, RNA and proteins and their role in molecular biology here</a></li>
+<li>Genes: These are the segments of DNA that carry the instructions for making proteins.</li>
+<li>Proteins: These are large, complex molecules that perform a wide range of functions in the body, such as catalyzing metabolic reactions, replicating DNA, responding to stimuli, and transporting molecules across cell membranes.</li>
+<li>Alignments: This is the process of comparing two or more sequences to find similarities and differences.</li>
+<li>BLAST: This is a popular sequence alignment tool that is used to search for similar sequences in databases.</li>
+<li>Genome assembly: This is the process of piecing together the complete DNA sequence of an organism from smaller, overlapping fragments.</li>
+<li>Genome annotation: This is the process of identifying and describing the features of a genome, such as genes, regulatory regions, and repeats.</li>
+<li>Machine learning: This is a type of artificial intelligence that involves training computer algorithms to learn from data and make predictions.</li>
+</ul>
+<p>In conclusion, bioinformatics is a rapidly growing field that plays a crucial role in the analysis and interpretation of biological data. Hear from the bioinformatics experts by <a href="https://thehackbio.com/courses/8_bioinformatics_careers" target="_blank" rel="noopener noreferrer">learning about several bioinformatics career options that are open to you here</a>.</p>
+<p>By understanding the basics of bioinformatics, including its history, main areas of research, and important concepts and terms, scientists and researchers can better navigate this exciting and ever-evolving field.</p>
 </div>
 
         <div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-04-29</span>
+                <span>Updated on 2024-05-20</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -268,9 +236,9 @@ Bioinformatics is an interesting mesh of biology, computation and statistics. I 
         </section>
     </div>
 
-    <div class="post-nav print:tw-hidden"><a href="/posts/bioinf_stack/" class="prev" rel="prev" title="The Ideal Stack for Beginners in Bioinformatics"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>The Ideal Stack for Beginners in Bioinformatics</a>
-            <a href="/posts/gen_interns/" class="next" rel="next" title="What to expect from the HackBio genomics internship">What to expect from the HackBio genomics internship<svg class="icon"
+    <div class="post-nav print:tw-hidden"><a href="/posts/testtimonials/" class="prev" rel="prev" title="Testimonials from our 2023 Workshop"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>Testimonials from our 2023 Workshop</a>
+            <a href="/posts/top5toolsinbfx/" class="next" rel="next" title="Getting Started with Bioinformatics Tools: Top 5 software &amp; database you should know">Getting Started with Bioinformatics Tools: Top 5 software &amp; database you should know<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
 </div>
 </article></div>

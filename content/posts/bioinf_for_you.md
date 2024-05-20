@@ -5,6 +5,7 @@ draft = false
 author = 'Wale Ogunleye'
 +++
 
+![](images/FrontMeta.png)
 > ⚛️ This article is an excerpt from my talk with Heels and Tech
 
 Bioinformatics is an interesting mesh of biology, computation and statistics. I like to call it the tech of biology, and rightly so, it is living up to the hype. Since the covid-19 pandemic, bioinformatics has being topping the market size and projections charts. It is a discipline with a lot of interest and investment from the government as well as academic and industry stakeholders. Given the high level of cash injections from multiple parties, you can expect rewarding renumeration packages if you are a skilled professional (Watch out for article on Salary expectations).
