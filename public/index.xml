@@ -3,9 +3,41 @@
         <title>🩸 DNA and Dreams</title>
         <link>http://localhost:1313/</link>
         <description>🩸 DNA and Dreams</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 May 2024 15:38:47 &#43;0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 22 May 2024 09:18:44 &#43;0200</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Internship Questions Set Stage 3</title>
+    <link>http://localhost:1313/posts/internstage3/</link>
+    <pubDate>Wed, 22 May 2024 09:18:44 &#43;0200</pubDate><author>
+        <name>HackBio</name>
+    </author><guid>http://localhost:1313/posts/internstage3/</guid>
+    <description><![CDATA[To get started with learning bioinformatics, with mentorship and project experience, visit HackBio
+Project 4a: Prevalence of resistance genes to selected antibiotics in sepsis across different countries.This project delves into the critical intersection of antibiotic resistance and severe infections such as sepsis. Sepsis, a life-threatening condition, often involves E. coli, a bacteria commonly found in the human gut. This research aims to comprehensively analyze the prevalence of antibiotic resistance genes within E.]]></description>
+</item><item>
+    <title>Internship Questions Set Stage 2</title>
+    <link>http://localhost:1313/posts/internstage2/</link>
+    <pubDate>Wed, 22 May 2024 09:12:04 &#43;0200</pubDate><author>
+        <name>HackBio</name>
+    </author><guid>http://localhost:1313/posts/internstage2/</guid>
+    <description><![CDATA[To get started with learning bioinformatics, with mentorship and project experience, visit HackBio
+Project 3: Run a simple NGS analysis pipelineIn this section, you will implement a simple NGS analysis on a simple dataset
+Starting Datasets:
+Forward Strand Reverse Strand Reference Genome Proposed Pipeline:
+Download dataset (wget) =&gt; Quality Control (FastQC) =&gt; Trimming (FastP) =&gt; Genome Mapping (bwa) =&gt; Variant Calling (bcftools/freebayes)
+Feel free to add software as you prefer.]]></description>
+</item><item>
+    <title>Internship Questions Set Stage 1</title>
+    <link>http://localhost:1313/posts/internstage1/</link>
+    <pubDate>Wed, 22 May 2024 08:57:33 &#43;0200</pubDate><author>
+        <name>HackBio</name>
+    </author><guid>http://localhost:1313/posts/internstage1/</guid>
+    <description><![CDATA[To get started with learning bioinformatics, with mentorship and project experience, visit HackBio
+Project 1: BASh BasicGoogle Doc File: Stage 1 Task
+You are to achieve this short story with the command line alone.
+Create your copy of the file and enter your command in the terminal space ($) below each action.
+Participants who contributed significantly (slack handle alone):
+N/B: The story here is fictional and the files are just hypothetical.]]></description>
+</item><item>
     <title>Getting Started with Bioinformatics Tools: Top 5 software &amp; database you should know</title>
     <link>http://localhost:1313/posts/top5toolsinbfx/</link>
     <pubDate>Mon, 20 May 2024 15:30:45 &#43;0200</pubDate><author>
@@ -70,20 +102,5 @@ Why: For the rest of your career in bioinformatics and data science, you will ha
     </author><guid>http://localhost:1313/posts/gen_interns/</guid>
     <description><![CDATA[The HackBio Genomics internship is here again and it is another opportunity for researchers worldwide to connect for the purpose of learning and career development.
 A little bit of history: The first edition of the internship happened between August and September, 2020 (about 4 years ago). It was a fast paced, accelerated and project based learning experience. With about 700 students (and 69 finalists; &lt; 10%), we hosted the first edition of the internship successfully with lots of gifts and memories.]]></description>
-</item><item>
-    <title>Is Bioinformatics for you</title>
-    <link>http://localhost:1313/posts/bioinf_for_you/</link>
-    <pubDate>Mon, 29 Apr 2024 14:23:00 &#43;0200</pubDate><author>
-        <name>Wale Ogunleye</name>
-    </author><guid>http://localhost:1313/posts/bioinf_for_you/</guid>
-    <description><![CDATA[⚛️ This article is an excerpt from my talk with Heels and Tech
-Bioinformatics is an interesting mesh of biology, computation and statistics. I like to call it the tech of biology, and rightly so, it is living up to the hype. Since the covid-19 pandemic, bioinformatics has being topping the market size and projections charts. It is a discipline with a lot of interest and investment from the government as well as academic and industry stakeholders.]]></description>
-</item><item>
-    <title>The Ideal Stack for Beginners in Bioinformatics</title>
-    <link>http://localhost:1313/posts/bioinf_stack/</link>
-    <pubDate>Mon, 29 Apr 2024 14:23:00 &#43;0200</pubDate><author>
-        <name>Wale Ogunleye</name>
-    </author><guid>http://localhost:1313/posts/bioinf_stack/</guid>
-    <description><![CDATA[Welcome to the dynamic world of bioinformatics! As a beginner, embarking on the journey of mastering bioinformatics can be both exciting and overwhelming. One of the first challenges you&rsquo;ll encounter is figuring out the right combination of tools and skills to build a strong foundation. In this guide, I&rsquo;ll break down the bioinformatics tech landscape into clear categories, making it easier for you to navigate and build the ideal stack that suits your interests and career journey.]]></description>
 </item></channel>
 </rss>
